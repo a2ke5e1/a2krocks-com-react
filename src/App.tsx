@@ -21,6 +21,8 @@ import {
   Navigate
 } from "react-router-dom";
 
+import About from './Pages/About/About'
+
 
 function ButtonAppBar() {
   return (
@@ -45,11 +47,6 @@ function Work() {
     ); 
 }
 
-function About() {
-  return (
-      <h1>Test2</h1>
-  ); 
-}
 
 function App() {
   return (
@@ -77,7 +74,7 @@ function App() {
             }}
           >
             <Typography variant="subtitle2" component="h2" sx={{ flexGrow: 1 }}>
-              &copy; 2021 Apurv Ajay Kumar.
+              &copy; 2021. All Rights Reserved to Apurv Ajay Kumar.
             </Typography>
             <IconButton sx={{
               color : '#0e76a8'
