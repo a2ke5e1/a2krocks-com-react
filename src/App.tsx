@@ -64,7 +64,7 @@ function App() {
             <Route  path='/about' element={ <About /> } />
           </Routes>
         </main>
-        <footer>
+        <footer className="footer-name">
           <Divider light />
           <Box
             sx={{
