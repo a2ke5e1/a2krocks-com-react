@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.greeting-name {
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+}
+
+.img-photo {
+    height: 100px;
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 981px) { 
+    .img-photo {
+        height: 500px;
+        border-radius: 35px;
+    }
+    
+}
