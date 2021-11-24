@@ -22,6 +22,7 @@ import {
 } from "react-router-dom";
 
 import About from './Pages/About/About'
+import Work from './Pages/Work/Work'
 
 
 function ButtonAppBar() {
@@ -42,11 +43,6 @@ function ButtonAppBar() {
 }
 
 
-function Work() {
-  return (
-    <h1>Test</h1>
-  );
-}
 
 
 function App() {
