@@ -7,6 +7,10 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea, CardActions, Button } from '@mui/material';
 import logo from '../../logo.jpg';
+import cover0 from '../../imgs/project0/cover.png'
+import cover1 from '../../imgs/project1/cover.png'
+import cover2 from '../../imgs/project2/cover.png'
+
 
 function Work() {
 
@@ -23,12 +27,12 @@ function Work() {
                 alignItems="center" spacing={2}
             >
                 <Grid item  >
-                    <Card variant="outlined" sx={{ width: cardWidth }}>
-                        <CardActionArea>
+                    <Card  variant="outlined" sx={{ width: cardWidth , borderColor: '#dae2ef', borderRadius: 5}}>
+                        <CardActionArea href="/projects/0">
                             <CardMedia
                                 component="img"
                                 height="200"
-                                image={logo}
+                                image={cover0}
                                 alt="green iguana"
                             />
                             <CardContent>
@@ -46,12 +50,12 @@ function Work() {
                     </Card>
                 </Grid>
                 <Grid item  >
-                    <Card variant="outlined" sx={{ width: cardWidth }}>
-                        <CardActionArea>
+                    <Card variant="outlined" sx={{ width: cardWidth , borderColor: '#eaf0f5', borderRadius: 5}}>
+                        <CardActionArea href="/projects/1">
                             <CardMedia
                                 component="img"
                                 height="200"
-                                image={logo}
+                                image={cover1}
                                 alt="green iguana"
                             />
                             <CardContent>
@@ -69,12 +73,12 @@ function Work() {
                     </Card>
                 </Grid>
                 <Grid item  >
-                    <Card variant="outlined" sx={{ width: cardWidth }}>
-                        <CardActionArea>
+                    <Card variant="outlined" sx={{ width: cardWidth , borderColor: '#e4e5e9', borderRadius: 5}}>
+                        <CardActionArea href="/projects/2">
                             <CardMedia
                                 component="img"
                                 height="200"
-                                image={logo}
+                                image={cover2}
                                 alt="green iguana"
                             />
                             <CardContent>
@@ -87,7 +91,7 @@ function Work() {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button href="/projects/2" size="small">Learn More</Button>
+                            <Button  href="/projects/2" size="small">Learn More</Button>
                         </CardActions>
                     </Card>
                 </Grid>
