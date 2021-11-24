@@ -21,7 +21,7 @@ function Project0() {
                 LOGO
             </Typography>
             <Typography sx={{ mt: 1, mb: 3 }} variant="h5" component="h2" align="center" className="cover-title" fontWeight="300">
-                Design a website for finding and viewing coding tutorials
+                A website for finding and viewing coding tutorials
             </Typography>
             <img src={cover} className="cover-page" />
             <Grid container

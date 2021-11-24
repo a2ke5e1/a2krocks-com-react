@@ -35,7 +35,7 @@ function ButtonAppBar() {
         <Toolbar>
           <div><img width="50px" src={logo} /></div>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1, m: 1 }}>
-            a2krocks
+            <a href="/" className="a2k_link" > a2krocks</a>
           </Typography>
           <Button href="/work" startIcon={<WorkIcon />} color="inherit">Work</Button>
           <Button href="/about" startIcon={<AboutIcon />} color="inherit">About</Button>
