@@ -23,6 +23,9 @@ import {
 
 import About from './Pages/About/About'
 import Work from './Pages/Work/Work'
+import Project0 from './Projects/Project0/Project0'
+import Project1 from './Projects/Project1/Project1'
+import Project2 from './Projects/Project2/Project2'
 
 
 function ButtonAppBar() {
@@ -63,6 +66,9 @@ function App() {
           <Route path='/' element={<Navigate to="/work" />} />
           <Route path='/work' element={<Work />} />
           <Route path='/about' element={<About />} />
+          <Route path="/projects/0" element={<Project0 />} />
+          <Route path="/projects/1" element={<Project1 />} />
+          <Route path="/projects/2" element={<Project2 />} />
         </Routes>
       </main>
       <footer className="footer-name">
@@ -71,7 +77,7 @@ function App() {
           justifyContent="space-between"
           alignItems="center"
           sx={{
-            p : 3
+            p: 3
           }}
         >
 

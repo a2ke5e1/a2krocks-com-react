@@ -5,7 +5,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { CardActionArea } from '@mui/material';
+import { CardActionArea, CardActions, Button } from '@mui/material';
 import logo from '../../logo.jpg';
 
 function Work() {
@@ -23,7 +23,7 @@ function Work() {
                 alignItems="center" spacing={2}
             >
                 <Grid item  >
-                    <Card variant="outlined" sx={{ width: cardWidth, height : cardHeight }}>
+                    <Card variant="outlined" sx={{ width: cardWidth }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -36,14 +36,17 @@ function Work() {
                                     Project: 0
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary">
-                                    Mobile Ordering App for a Restaurant
+                                    Design a mobile food ordering app for a Restaurant.
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
+                        <CardActions>
+                            <Button href="/projects/0" size="small">Learn More</Button>
+                        </CardActions>
                     </Card>
                 </Grid>
                 <Grid item  >
-                    <Card variant="outlined" sx={{ width: cardWidth, height : cardHeight }}>
+                    <Card variant="outlined" sx={{ width: cardWidth }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -60,10 +63,13 @@ function Work() {
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
+                        <CardActions>
+                            <Button href="/projects/1" size="small">Learn More</Button>
+                        </CardActions>
                     </Card>
                 </Grid>
                 <Grid item  >
-                    <Card variant="outlined" sx={{ width: cardWidth, height : cardHeight }}>
+                    <Card variant="outlined" sx={{ width: cardWidth }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -80,6 +86,9 @@ function Work() {
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
+                        <CardActions>
+                            <Button href="/projects/2" size="small">Learn More</Button>
+                        </CardActions>
                     </Card>
                 </Grid>
             </Grid>
