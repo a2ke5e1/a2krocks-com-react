@@ -5,6 +5,8 @@ import './About.css'
 import { Typography, Grid, Box, Card, Stack, Container, Button, ButtonGroup } from '@mui/material'
 import { Mail, LinkedIn } from '@mui/icons-material'
 
+
+
 function About() {
 
     const linkedinURL = "https://www.linkedin.com/in/a2krocks/"
@@ -41,7 +43,7 @@ function About() {
                         </Box>
 
                         <Box sx={{ mt: 2 }}>
-                            <Button variant="outlined"> RESUME</Button>
+                            <Button href="/resume.pdf" download variant="outlined"> RESUME</Button>
                         </Box>
 
                         <Box sx={{ mt: 3 }}>
